@@ -1,0 +1,18 @@
+{
+  "name": "S&S Learning Lab",
+  "short_name": "S&S Lab",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "description": "Structured learning support for virtual school students ages 7-13 in Central Virginia.",
+  "orientation": "portrait",
+  "background_color": "#f7fafc",
+  "theme_color": "#102033",
+  "icons": [
+    {
+      "src": "images/ss-learning-lab-icon.png",
+      "sizes": "113x112",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

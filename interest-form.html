@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interest Form | S&amp;S Learning Lab</title>
+  <meta name="description" content="Submit an interest form for S&amp;S Learning Lab so we can review fit, schedule needs, and next steps for your family.">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/png" href="images/ss-learning-lab-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="interest-form">
+  <div id="site-header"></div>
+  <main>
+    <section class="section section-alt">
+      <span class="decor-dots decor-form-dots" aria-hidden="true"><i></i><i></i></span>
+      <div class="container form-layout">
+        <div>
+          <span class="kicker">Interest Form</span>
+          <h1>Tell us about your child and we&apos;ll review fit for the lab.</h1>
+          <p>This form is the best first step for families who want updates, availability, and a conversation about whether S&amp;S Learning Lab is the right daytime learning environment.</p>
+          <div class="info-card compact">
+            <h3>Follow Along On Facebook</h3>
+            <p>Stay connected for updates, early enrollment news, and a closer look at S&amp;S Learning Lab as it grows.</p>
+            <a class="text-link social-link" href="https://www.facebook.com/profile.php?id=61564703307374" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.6 1.7-1.6H16V4.8c-.3 0-.9-.1-1.8-.1-2.7 0-4.4 1.6-4.4 4.6V11H7v3h2.8v7h3.7Z"></path>
+              </svg>
+              <span>Visit our Facebook page</span>
+            </a>
+          </div>
+        </div>
+        <form class="site-form" data-form-type="interest">
+          <label>
+            Parent/Guardian Name
+            <input type="text" name="parentName" required>
+          </label>
+          <label>
+            Email Address
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Phone Number
+            <input type="tel" name="phone">
+          </label>
+          <fieldset class="form-section">
+            <legend>Student Info</legend>
+            <label>
+              How many children would you be enrolling?
+              <select name="childrenCount" required>
+                <option value="">Select one</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+              </select>
+            </label>
+            <label>
+              Age(s) of child(ren)?
+              <input type="text" name="childAges" required>
+            </label>
+            <label>
+              Is your child currently enrolled in:
+              <select name="schoolType" required>
+                <option value="">Select one</option>
+                <option>Virtual/Online School</option>
+                <option>Homeschool</option>
+                <option>Traditional School (but considering other options)</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend>Needs + Pain Points</legend>
+            <label>
+              What challenges are you currently experiencing with your child&apos;s learning?
+              <textarea name="learningChallenges" rows="5" required></textarea>
+            </label>
+            <fieldset class="choice-group">
+              <legend>What would you want MOST from a learning lab environment?</legend>
+              <label class="checkbox-row"><input type="checkbox" name="desiredSupport" value="Structured daily routine"><span>Structured daily routine</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="desiredSupport" value="Help staying focused"><span>Help staying focused</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="desiredSupport" value="Academic support/tutoring"><span>Academic support/tutoring</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="desiredSupport" value="Social interaction with peers"><span>Social interaction with peers</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="desiredSupport" value="Safe and supervised environment"><span>Safe and supervised environment</span></label>
+              <label>
+                Other
+                <input type="text" name="desiredSupportOther">
+              </label>
+            </fieldset>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend>Schedule</legend>
+            <fieldset class="choice-group">
+              <legend>What days would you MOST likely need support?</legend>
+              <label class="checkbox-row"><input type="checkbox" name="supportDays" value="Monday"><span>Monday</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="supportDays" value="Tuesday"><span>Tuesday</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="supportDays" value="Wednesday"><span>Wednesday</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="supportDays" value="Thursday"><span>Thursday</span></label>
+              <label class="checkbox-row"><input type="checkbox" name="supportDays" value="Friday"><span>Friday</span></label>
+            </fieldset>
+            <label>
+              Preferred time block
+              <select name="timeBlock" required>
+                <option value="">Select one</option>
+                <option>Full Day (8am-3pm)</option>
+                <option>Half Day (Morning)</option>
+                <option>Half Day (Afternoon)</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend>Pricing</legend>
+            <label>
+              What weekly price range would you feel comfortable paying for a structured learning lab?
+              <select name="priceRange" required>
+                <option value="">Select one</option>
+                <option>$150-$175/week</option>
+                <option>$175-$200/week</option>
+                <option>$200+/week</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend>Commitment Level</legend>
+            <label>
+              How interested are you in enrolling your child?
+              <select name="interestLevel" required>
+                <option value="">Select one</option>
+                <option>Very interested (ready when available)</option>
+                <option>Interested but need more details</option>
+                <option>Just exploring options</option>
+              </select>
+            </label>
+            <label>
+              If spots are limited, would you want priority enrollment?
+              <select name="priorityEnrollment" required>
+                <option value="">Select one</option>
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </label>
+          </fieldset>
+          <label>
+            What area are you located in?
+            <input type="text" name="locationArea" required>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="button button-primary">Send Interest Form</button>
+          </div>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>

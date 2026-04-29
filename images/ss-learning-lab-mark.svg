@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">S&amp;S Learning Lab mark</title>
+  <desc id="desc">Abstract shield and book logo for S&amp;S Learning Lab.</desc>
+  <defs>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102033"/>
+      <stop offset="100%" stop-color="#1f7f86"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="26" fill="#edf3f7"/>
+  <path d="M48 13 76 24v20c0 17.7-10.5 29.8-28 39C30.5 73.8 20 61.7 20 44V24l28-11Z" fill="url(#shield)"/>
+  <path d="M31 35c5.2-3.7 10.9-5.5 17-5.5s11.8 1.8 17 5.5v20.5c-5.2-3.7-10.9-5.5-17-5.5s-11.8 1.8-17 5.5V35Z" fill="#fff"/>
+  <path d="M48 29.5v20.5" stroke="#d4a54a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32.5 41.5h12m3 0h16" stroke="#102033" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
